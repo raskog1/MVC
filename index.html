@@ -18,11 +18,11 @@
       h4 {
         padding: 20px;
       }
-      p,
+      .pageLinks,
       h6 {
         display: inline;
       }
-      p {
+      .pageLinks {
         float: right;
       }
       .images {
@@ -44,7 +44,13 @@
       <h6>
         Items per page: <input type="number" id="pages" min="1" max="100" />
       </h6>
-      <p class="pageLinks">Page 1, 2, 3, 4, 5</p>
+      <div class="pageLinks">
+        <button class="page btn">1</button>
+        <button class="page btn">2</button>
+        <button class="page btn">3</button>
+        <button class="page btn">4</button>
+        <button class="page btn">5</button>
+      </div>
     </footer>
     <script type="module" src="index.js"></script>
   </body>
